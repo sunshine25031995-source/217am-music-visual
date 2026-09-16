@@ -10,7 +10,7 @@ from google import genai
 
 APP_PASSWORD = st.secrets.get("APP_PASSWORD", "")
 GEMINI_API_KEY = st.secrets.get("GEMINI_API_KEY", "")
-MODEL = "gemini-3.8-flash"
+MODEL = "gemini-2.5-flash-image"
 
 SYSTEM_PROMPT = r"""
 Bạn là Creative Director cho TikTok “2:17 AM — Nơi những người không ngủ tìm thấy nhau.”
